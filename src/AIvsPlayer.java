@@ -6,7 +6,9 @@ import java.util.ArrayList;
  * @author Administrator
  */
 public class AIvsPlayer extends SinglePlayer{
-        // 2 apple, 2 snakes arrarlist, both die when meet
+
+    private static final long serialVersionUID = 1L;
+    // 2 apple, 2 snakes arrarlist, both die when meet
     public final ArrayList<Integer> AI;
     private int app;
     

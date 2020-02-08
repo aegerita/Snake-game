@@ -1,8 +1,6 @@
 import java.awt.Color;
 import java.awt.FlowLayout;
 import java.awt.event.*;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.*;
 
 /**
@@ -62,7 +60,7 @@ public class SnakeGame  {
      * @param args
      */
     public static void main(String[] args) {
-        SnakeGame snakeGame = new SnakeGame();
+        new SnakeGame();
     }
     
     /**
